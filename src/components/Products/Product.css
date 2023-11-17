@@ -1,0 +1,21 @@
+.product-card {
+  height: 400px;
+  width: 300px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image {
+  /* height: 200px; */
+  /* width: 100%; */
+  background-color: #ccc;
+}
+
+.product-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
