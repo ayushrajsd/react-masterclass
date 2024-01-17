@@ -23,7 +23,7 @@ const ProductList = ({ selectedCategory }) => {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`https://fakestoreapi.com/products/category/${category}`)
+    fetch(`http://localhost:3300/products/category/${category}`)
       .then((res) => res.json())
       .then((json) => {
         setProducts(json);
